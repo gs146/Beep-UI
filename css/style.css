@@ -1,0 +1,494 @@
+@font-face {
+  font-family: ProximaNova;
+  src: url("fonts/Mark Simonson - Proxima Nova Semibold-webfont.ttf") format("ttf");
+  
+}
+
+body{
+   font-family: "ProximaNova"; 
+}
+
+
+.column{
+    float: right;
+    margin:40px 20px 20px 20px;
+    font-style: Pro;
+}
+.home{
+    font-size: 16px;
+    font-weight: 600;
+    color: #2E90E5;
+    margin-left: 0px;
+}
+
+.home-cl1{
+    font-size: 16px;
+    font-weight: 600;
+    color: #2E90E5;
+}
+
+.categories  .accesories-list{
+    margin-left: 20px;;
+    /* color: green; */
+    color:#22262A;
+    font-size: 16px;
+    font-family:'ProximaNova'  ;
+}
+
+.brand-list{
+  font-size: 16px;
+    font-weight: 600;
+    color: #22262A;
+    line-height: 2.3;
+    margin-left: -40px;
+}
+
+/* ===========accesories================= */
+
+.accesories-list
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: #22262A;
+    line-height: 2.3;
+    margin-left: -40px;
+}
+
+
+
+/* ===========prices col===================== */
+
+.prices-col{
+  background-color: #F1F3F4;
+ border-radius: 6px;
+ height: 160px;
+ padding-top:20px; 
+ margin-left: 20px;
+}
+
+#min {
+  color: black;
+  padding-left: -20px;
+  margin-left: 40px;
+  border-width:0px;
+ border:none; 
+ }
+ 
+.dash{
+     padding-top: 27px;
+     margin-left: 15px;
+}
+ 
+ #max{
+     color: black;
+     border-width:0px;
+     border:none; 
+     margin-left: 25px;
+ }
+ 
+
+/* ==============text hovering========== */
+.categories .container .row .col-md-4 .col-md-12 .brand .brand-list li a:hover{
+  color:orange;
+  text-decoration: none;
+}
+
+.categories .container .row .col-md-4 .col-md-12 .mycol li:hover{
+  color:orange;
+}
+
+
+.column:hover{
+  opacity: 0.4;
+}
+
+
+/* ==============Brand========================== */
+.categories .container .row .col-md-4  .brand{
+  background-color: #F1F3F4;
+  border-radius: 6px;
+  height: 130px;
+  margin-top: 24px;
+  margin-left: 20px;  
+}
+
+
+/* ==============More========================== */
+
+.categories .container .row .col-md-4 .more{
+  margin-top: 24px;
+  background-color:#F1F3F4 ;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: -20px;
+}
+.categories .container .row .col-md-4 .more ul li{
+  font-size: 18px;
+  padding-left: 75px;
+  padding-top: 12px ;
+} 
+
+.categories .container .row .col-md-4 .more ul li a{
+  color:black;
+  font-size: 16px;
+  text-align: centre;
+  text-decoration: none;
+}
+.categories .container .row .col-md-4 .more ul li a:hover{
+  color:orange;
+}
+
+.clear-fix{
+    clear: both;
+}
+    
+
+.badge-1 {
+    display: inline-block;
+    min-width: 4px;
+    font-size: 5px;
+    font-weight: 100;
+    line-height: 1;
+    color: red;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: red;
+    border-radius: 10px;
+}
+
+
+.mycol{
+    background-color: #F1F3F4;
+    border-radius: 6px;
+    height: 400px;
+    padding-top:20px; 
+    margin-left: 20px;
+}
+
+ #categories:hover{
+    color: darkcyan;
+}
+
+  
+/* =============careousel=============== */
+.carousel-inner>.item>img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel .item {
+    height: 400px;
+    border-radius:10px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.carousel-control {
+    border-radius: 10px;
+
+}
+  
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+}
+
+/* =========== Navigation ============ */
+
+.sort-by .btn-group{
+  width: 150px;
+  size: 150px;
+}
+
+.btn-group>.btn:first-child {
+  position: inherit;
+  margin-left: 10px;
+  width: 130%;
+}
+
+
+.container .col-md-8 .col-md-12 .navbar-default {
+   
+  /* border-color:12px solid black; */
+  /* z-index: 110; */
+  border:none;
+  margin-top: 24px;
+}
+
+.container .navbar-default .navbar-nav > li > a {
+  color: black;
+  font-size:16px;
+  font-family: "Proxima", sans-serif;
+}
+
+
+/* =================page number============= */
+
+
+ .categories .container .row .col-md-8 .num {
+  font-size: 16px;
+  text-align: center;
+  height: 50px;
+  background-color: cornsilk;
+} 
+
+.categories .container .row .col-md-8 .col-md-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.categories .container .row .col-md-8 .num span {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 13px;
+  padding-top:12px;
+  display: inline-block;
+}
+
+.categories .container .row .col-md-8 .num span a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.categories .container .row .col-md-8 .num span :focus{
+background-color: black;
+padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 16px;
+  padding-top:12px;
+}
+
+.categories .container .row .col-md-8 .num span a:focus{
+  color:white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+/* ==============headphones-========== */
+
+.rating {
+unicode-bidi: bidi-override;
+direction: rtl;
+}
+.rating > span {
+display: inline-block;
+position: relative;
+width: 1.em;
+}
+
+.rating .checked
+{
+  color:orange;
+}
+
+
+.categories .container .row .col-md-8{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.categories .container .row .col-md-8 .im-overlay{
+  padding-left: 0;
+  background-color: #2E90E5;
+  margin-bottom: 24px;
+}
+.categories .container .row .col-md-8 .col-md-12 img{
+  height: 100%;
+  float: right;
+}
+
+.categories .container .row .col-md-8 .col-md-12{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.categories .container .row .col-md-8 .hf{
+  /* background-color: #E5E8EA; */
+  display: inline-block;
+  border: 3px solid #E5E8EA;
+  width: 30.9%;
+  height: auto;
+}
+.categories .container .row .col-md-8 .hf img{
+  margin-bottom: 30px;
+  margin-top: 24px;
+  width: 100%;
+  height: 100%;
+}
+.categories .container .row .col-md-8 .hf .container{
+  height: 100%;
+  width: 100%;
+}
+.categories .container .row .col-md-8 .hf .container .txt{
+  font-family: "ProximaNova";
+  text-align: center;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+}
+.categories .container .row .col-md-8 .hf .container .txt a{
+  color:#333;
+  text-decoration: none;
+}
+
+.categories .container .row .col-md-8 .hf .container .txt a:hover{
+  color:orange;
+  text-decoration: none;
+}
+
+.categories .container .row .col-md-8 .hf .container .txt h1{
+  font-size: 16px;
+  color: red;
+  margin-bottom: 24px;
+}
+.categories .container .row .col-md-8 .hf .container .txt del{
+  color: #C1C8CE;
+}
+
+
+/* =============Footer=============== */
+
+footer .col-md-4 .beep{
+  height: 80px;
+  width: auto;
+}
+footer .col-md-4 h1{ 
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+footer .col-md-4 p{
+  font-size: 16px;
+  padding: 20px;
+}
+
+footer .col-md-4 .smallimg img{
+  padding: 20px;
+}
+
+.end ul{
+  list-style-type: none;
+}
+
+.end ul li{
+  display: inline-block;
+  float:right;
+  padding: 10px;
+}
+
+.end p{
+  padding: 20px;
+  float: left;
+}
+
+.categories .container .row .col-md-4 {
+  padding-right: 24px;
+}
+
+.categories .container .row .col-md-4 .col-md-12{
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 24px;
+  font-family: "ProximaNova";
+} 
+
+.brand-list a{
+color:black;
+}
+
+.categories .container .row .col-md-4 .brand ul li a span{
+font-size: 16px;
+float: right;
+padding-right: 12px;
+}
+
+/* ================radio buttons============= */
+
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"]:checked + label span {
+  transform: scale(1.25);
+}
+input[type="radio"]:checked + label .red {
+  border: 2px solid #711313;
+}
+
+input[type="radio"]:checked + label .yellow {
+  border: 2px solid #816102;
+}
+
+input[type="radio"]:checked + label .green {
+  border: 2px solid #0e4e1d;
+}
+
+input[type="radio"]:checked + label .blue {
+  border: 2px solid #103f62;
+}
+
+input[type="radio"]:checked + label .pink {
+  border: 2px solid #851554;
+}
+label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+label:hover span {
+  transform: scale(1.25);
+}
+label span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+label span.red {
+  background: #db2828;
+}
+
+label span.yellow {
+  background: #fbbd08;
+}
+
+label span.green {
+  background: #21ba45;
+}
+label span.teal {
+  background: #00b5ad;
+}
+label span.blue {
+  background: #2185d0;
+}
+label span.violet {
+  background: #6435c9;
+}
+label span.purple {
+  background: #a333c8;
+}
+label span.pink {
+  background: #e03997;
+}
+
+.radio-col{
+  padding-top: 25px;
+  padding-left: 60px;
+}
+
+.color-col{
+  background-color: #F1F3F4;
+  border-radius: 6px;
+  height: 130px;
+  margin-top: 24px;
+  margin-left: 20px;    
+}
